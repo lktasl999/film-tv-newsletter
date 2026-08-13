@@ -1,16 +1,15 @@
 # Film+Tv Updates
 
-A weekly film & TV newsletter, built as a designed PDF and emailed every Monday.
+A weekly film & TV newsletter, built as a designed PDF and posted every Monday.
 
 The design lives in this repo and does not get rebuilt each week. A weekly run is:
-write a new content file, run the build, look at the rendered pages, send.
+write a new content file, run the build, look at the rendered pages, deliver.
 
 ```bash
 npm install
 
 node src/build.js            # content JSON -> out/film-tv-updates-<date>.pdf
 node src/verify.js           # PDF -> out/pages/page-NN.png, one per page
-node src/send.js             # emails the newest PDF as an attachment
 ```
 
 ## Weekly run
@@ -23,7 +22,7 @@ node src/send.js             # emails the newest PDF as an attachment
    occupies. Every section must show a clean page span of its own.
 4. `node src/verify.js` — rasterizes the PDF and writes one PNG per page.
    **Look at them.** No run is finished without this.
-5. `node src/send.js`.
+5. Post the PDF straight into the session with `SendUserFile`. See Delivery.
 
 ## Content format
 
@@ -95,41 +94,26 @@ genuinely unusual.
 This is why the build uses Playwright rather than a CSS-only print pipeline —
 the layout is measured in a real engine, then printed.
 
-## Email
+## Delivery
 
-`src/send.js` picks a transport from whatever credentials are in the environment:
+The finished PDF is posted straight into the Claude session with `SendUserFile`.
+There is no mailer and no credentials to configure.
 
-```bash
-# Option A — SMTP (Gmail: use an App Password, not the account password)
-export SMTP_HOST=smtp.gmail.com
-export SMTP_PORT=465
-export SMTP_USER=you@gmail.com
-export SMTP_PASS=xxxxxxxxxxxxxxxx
-export MAIL_FROM="Film+Tv Updates <you@gmail.com>"
-
-# Option B — Resend
-export RESEND_API_KEY=re_xxxxxxxx
-export MAIL_FROM="Film+Tv Updates <updates@yourdomain.com>"
+```
+SendUserFile({
+  files: ["out/film-tv-updates-<date>.pdf"],
+  caption: "Film+Tv Updates — <rangeLabel>. <n> pages.",
+  status: "proactive",
+  display: "render",
+})
 ```
 
-`MAIL_TO` defaults to `aslockett@gmail.com`. Subject is
-`Film+Tv Updates — <rangeLabel>`.
-
-### Network requirement
-
-Sending needs outbound access to the mail host, and a sandboxed build environment
-usually does not have it. Checked on 2026-08-13 from the Claude Code environment
-`env_01GN6oevhHzGTqKA5w7VLgYa`:
-
-| Route | Result |
-| --- | --- |
-| `smtp.gmail.com:465` / `:587` | TCP connect times out — SMTP ports are not open |
-| `api.resend.com:443` and other mail APIs | egress proxy answers `403` to `CONNECT` |
-
-So credentials alone are not enough: correct ones still fail here. Either add the
-mail host to the environment's allowed domains (an HTTPS API such as Resend is the
-right shape, since only 443 goes through the proxy), or run `src/send.js` somewhere
-with open egress — a GitHub Actions runner, or your own machine.
+Email was tried first and dropped. For the record, so nobody rebuilds it: this
+environment cannot reach a mail server at all — `smtp.gmail.com:465` and `:587`
+time out at the TCP layer, and every mail API host (Resend, Mailgun, SendGrid,
+Postmark) is refused by the egress proxy with `403` on `CONNECT`. Correct
+credentials do not help, because the connection never opens. Posting the file
+into the session sidesteps the problem entirely.
 
 ## Layout
 
@@ -143,6 +127,5 @@ src/
   fonts.js         base64 font embedding
   verify.js        PDF -> PNG per page
   pdf-render.html  pdf.js harness used by verify
-  send.js          email
 out/               build output (gitignored)
 ```

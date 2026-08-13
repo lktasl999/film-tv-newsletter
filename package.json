@@ -7,13 +7,11 @@
   "scripts": {
     "build": "node src/build.js",
     "verify": "node src/verify.js",
-    "send": "node src/send.js",
     "issue": "node src/build.js && node src/verify.js"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@fontsource/source-serif-4": "^5.2.9",
-    "nodemailer": "^7.0.9",
     "pdfjs-dist": "^4.10.38",
     "playwright": "1.56.1"
   }
