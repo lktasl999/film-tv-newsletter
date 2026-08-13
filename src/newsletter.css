@@ -1,0 +1,568 @@
+/* ============================================================
+   Film+Tv Updates — print stylesheet
+   One bold serif (Source Serif 4) for titles.
+   One sans (Inter) for body and meta.
+   One muted accent, used only for small highlights.
+   ============================================================ */
+
+:root {
+  /* Sheet geometry */
+  --sheet-w: 8.5in;
+  --sheet-h: 11in;
+  --pad-x: 0.92in;
+  --pad-top: 0.62in;
+  --pad-bottom: 0.58in;
+  --header-h: 0.42in;
+  --footer-h: 0.30in;
+
+  /* Palette */
+  --paper: #fbfaf7;
+  --ink: #16171a;
+  --ink-soft: #33363b;
+  --muted: #74777e;
+  --faint: #9aa0a6;
+  --rule: #ded9d0;
+  --rule-soft: #e9e5dd;
+  --card: #f4f1ea;
+
+  /* The single accent. Small highlights only. */
+  --accent: #9a4a2b;
+}
+
+@page {
+  size: 8.5in 11in;
+  margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+}
+
+body {
+  font-family: "Inter", "Liberation Sans", sans-serif;
+  color: var(--ink);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: geometricPrecision;
+}
+
+/* Source flow is measured then emptied into paginated sheets. */
+#flow { position: absolute; left: -9999px; top: 0; width: 6.66in; }
+
+/* ---------- Sheet ---------- */
+
+.page {
+  position: relative;
+  width: var(--sheet-w);
+  height: var(--sheet-h);
+  background: var(--paper);
+  padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.page + .page { break-before: page; }
+
+.page-head {
+  height: var(--header-h);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 0.5px solid var(--rule);
+  padding-bottom: 0.10in;
+}
+
+.page-head .running {
+  font-size: 7.5pt;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.page-head .masthead {
+  font-family: "Source Serif 4", "Bitstream Charter", serif;
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+}
+
+.page-body {
+  flex: 1 1 auto;
+  display: flow-root;
+  overflow: hidden;
+  padding-top: 0.26in;
+}
+
+.page-foot {
+  height: var(--footer-h);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 7pt;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+  text-transform: uppercase;
+}
+
+/* ---------- Cover ---------- */
+
+.cover {
+  padding: 1.5in var(--pad-x) var(--pad-bottom);
+  justify-content: flex-start;
+}
+
+.cover .wordmark {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 52pt;
+  line-height: 0.98;
+  letter-spacing: -0.022em;
+  margin: 0;
+}
+
+.cover .wordmark .plus { color: var(--accent); }
+
+.cover .rule {
+  height: 2px;
+  background: var(--ink);
+  margin: 0.30in 0 0.22in;
+  width: 100%;
+}
+
+.cover .dateline {
+  font-size: 11pt;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--ink-soft);
+  margin: 0 0 0.06in;
+}
+
+.cover .standfirst {
+  font-size: 9.5pt;
+  line-height: 1.62;
+  color: var(--muted);
+  max-width: 5.2in;
+  margin: 0.14in 0 0;
+}
+
+.cover-contents {
+  margin-top: 0.85in;
+  border-top: 0.5px solid var(--rule);
+  padding-top: 0.24in;
+}
+
+.cover-contents h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 7.5pt;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.20in;
+}
+
+.toc-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.18in;
+  padding: 0.085in 0;
+  border-bottom: 0.5px solid var(--rule-soft);
+}
+
+.toc-row .num {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--faint);
+  width: 0.26in;
+  flex: 0 0 auto;
+}
+
+.toc-row .name {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 12pt;
+  flex: 0 0 auto;
+}
+
+.toc-row .desc {
+  font-size: 8.5pt;
+  color: var(--muted);
+  flex: 1 1 auto;
+}
+
+.cover-note {
+  margin-top: 0.34in;
+  font-size: 7.5pt;
+  line-height: 1.55;
+  color: var(--faint);
+  max-width: 5.4in;
+}
+
+/* ---------- Section opener ---------- */
+
+.opener { margin: 0 0 0.34in; }
+
+.opener .eyebrow {
+  font-size: 7.5pt;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: 0.13in;
+}
+
+.opener h1 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 33pt;
+  line-height: 1.02;
+  letter-spacing: -0.018em;
+  margin: 0;
+}
+
+.opener .kicker {
+  font-size: 9.5pt;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0.15in 0 0;
+  max-width: 5.4in;
+}
+
+.opener .opener-rule {
+  height: 1.5px;
+  background: var(--ink);
+  margin-top: 0.26in;
+}
+
+/* ---------- Sub-heads ---------- */
+
+.subhead {
+  font-size: 7.5pt;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0.30in 0 0.16in;
+  padding-bottom: 0.07in;
+  border-bottom: 0.5px solid var(--rule);
+}
+
+/* Only the block that opens a page loses its leading space. */
+.page-body > .block:first-child .subhead { margin-top: 0; }
+
+.standfirst-block {
+  font-size: 9.5pt;
+  line-height: 1.66;
+  color: var(--ink-soft);
+  margin: 0 0 0.24in;
+  max-width: 5.6in;
+}
+
+/* ---------- Pick card ---------- */
+
+.pick {
+  background: var(--card);
+  border-radius: 2px;
+  padding: 0.20in 0.22in 0.21in;
+  margin: 0 0 0.17in;
+}
+
+.pick-flag {
+  display: flex;
+  align-items: center;
+  gap: 0.07in;
+  margin-bottom: 0.10in;
+}
+
+.pick-flag .dot {
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.pick-flag .label {
+  font-size: 6.8pt;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.pick h3 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 15pt;
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  margin: 0 0 0.075in;
+}
+
+.pick .meta {
+  font-size: 8pt;
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 0.055in;
+}
+
+.pick .credits {
+  font-size: 8pt;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 0.11in;
+}
+
+.pick .credits .role {
+  color: var(--faint);
+  font-weight: 500;
+}
+
+.pick .credits .name { color: var(--ink-soft); font-weight: 500; }
+
+.scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.16in;
+  margin-bottom: 0.12in;
+}
+
+.score {
+  font-size: 7.6pt;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.score .k {
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  font-size: 6.8pt;
+  color: var(--faint);
+  margin-right: 0.045in;
+}
+
+.score .v { font-weight: 600; color: var(--accent); }
+.score .v.none { color: var(--faint); font-weight: 500; font-style: italic; }
+
+.pick .why {
+  font-size: 9pt;
+  line-height: 1.66;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.pick .why + .why { margin-top: 0.08in; }
+
+/* Content advisory tag — cults / conspiracy / extremism */
+.tag {
+  display: inline-block;
+  font-size: 6.4pt;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 0.5px solid var(--accent);
+  border-radius: 1px;
+  padding: 0.012in 0.05in;
+  vertical-align: 0.035in;
+  white-space: nowrap;
+}
+
+.pick .pick-tags { margin-top: 0.11in; }
+
+/* ---------- One-line list entries ---------- */
+
+.entry {
+  position: relative;
+  padding: 0.062in 0 0.062in 0.19in;
+  border-bottom: 0.5px solid var(--rule-soft);
+  font-size: 8.7pt;
+  line-height: 1.52;
+  color: var(--muted);
+}
+
+/* Pick marker lives in the gutter, outside the text flow, so it can
+   never become the first text on a wrapped line. */
+.entry.is-pick::before {
+  content: "";
+  position: absolute;
+  left: 0.035in;
+  top: 0.128in;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.entry .t {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 10pt;
+  color: var(--ink);
+  letter-spacing: -0.004em;
+}
+
+.entry .sep { color: var(--rule); margin: 0 0.055in; }
+
+.entry .p {
+  font-weight: 600;
+  font-size: 7.6pt;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.entry .d { color: var(--muted); }
+
+.entry .tag { margin-left: 0.055in; }
+
+.list-note {
+  font-size: 7.8pt;
+  line-height: 1.6;
+  color: var(--faint);
+  margin: 0.16in 0 0;
+  font-style: italic;
+}
+
+/* ---------- Festival card ---------- */
+
+.fest {
+  padding: 0.13in 0 0.14in;
+  border-bottom: 0.5px solid var(--rule-soft);
+}
+
+.fest-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.12in;
+  margin-bottom: 0.075in;
+  flex-wrap: wrap;
+}
+
+.fest h3 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 12.5pt;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.fest .when {
+  font-size: 7.8pt;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.status {
+  font-size: 6.6pt;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--faint);
+  border: 0.5px solid var(--rule);
+  border-radius: 1px;
+  padding: 0.014in 0.055in;
+}
+
+.status.live { color: var(--accent); border-color: var(--accent); }
+
+.fest p {
+  font-size: 8.7pt;
+  line-height: 1.62;
+  color: var(--muted);
+  margin: 0 0 0.05in;
+}
+
+.fest p .lead {
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.fest .winners {
+  margin: 0.09in 0 0;
+  padding: 0.10in 0.13in;
+  background: var(--card);
+  border-radius: 2px;
+  font-size: 8.3pt;
+  line-height: 1.62;
+  color: var(--ink-soft);
+}
+
+.fest .winners .k {
+  font-size: 6.8pt;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--faint);
+  display: block;
+  margin-bottom: 0.055in;
+}
+
+/* ---------- Wildcard ---------- */
+
+.wild { margin-top: 0.10in; }
+
+/* No top border here — the section opener already lays down a rule. */
+.wild .frame {
+  border-bottom: 0.5px solid var(--rule);
+  padding: 0.16in 0 0.30in;
+}
+
+.wild h2 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  font-size: 27pt;
+  line-height: 1.08;
+  letter-spacing: -0.018em;
+  margin: 0 0 0.10in;
+}
+
+.wild .year { color: var(--faint); font-weight: 400; }
+
+.wild .credits {
+  font-size: 8.5pt;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 0.14in;
+}
+
+.wild .credits .name { color: var(--ink-soft); font-weight: 500; }
+
+.wild .body {
+  font-size: 9.5pt;
+  line-height: 1.72;
+  color: var(--ink-soft);
+  max-width: 5.5in;
+}
+
+.wild .body p { margin: 0 0 0.13in; }
+.wild .body p:last-child { margin-bottom: 0; }
+
+.wild .where {
+  margin-top: 0.24in;
+  font-size: 8.2pt;
+  color: var(--muted);
+}
+
+.wild .where .k {
+  font-size: 6.8pt;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-right: 0.07in;
+}

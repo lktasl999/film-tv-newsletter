@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>rasterizer</title></head>
+<body>
+<script type="module">
+import * as pdfjs from '/node_modules/pdfjs-dist/build/pdf.min.mjs';
+pdfjs.GlobalWorkerOptions.workerSrc = '/node_modules/pdfjs-dist/build/pdf.worker.min.mjs';
+
+// Rasterizes one page of the PDF at `url` and hands back a PNG data URL.
+window.renderPage = async (url, pageNo, scale) => {
+  window.__doc__ = window.__doc__ || (await pdfjs.getDocument(url).promise);
+  const doc = window.__doc__;
+  const page = await doc.getPage(pageNo);
+  const viewport = page.getViewport({ scale });
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.floor(viewport.width);
+  canvas.height = Math.floor(viewport.height);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  await page.render({ canvasContext: ctx, viewport }).promise;
+  return canvas.toDataURL('image/png');
+};
+
+window.pageCount = async (url) => {
+  window.__doc__ = window.__doc__ || (await pdfjs.getDocument(url).promise);
+  return window.__doc__.numPages;
+};
+
+window.__READY__ = true;
+</script>
+</body>
+</html>

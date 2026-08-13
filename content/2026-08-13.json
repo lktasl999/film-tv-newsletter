@@ -1,0 +1,552 @@
+{
+  "issueDate": "2026-08-13",
+  "masthead": "Film+Tv Updates",
+  "issueLabel": "Jul 30 – Aug 13, 2026",
+  "rangeLabel": "July 30 – August 13, 2026",
+  "standfirst": "A two-week catch-up issue to open the run. Jane Schoenbrun turns the slasher inside out for MUBI, Eric Goode finds another American subculture to sit inside, Netflix closes its Manson file, and Locarno is mid-festival on the lake while Venice, Telluride, Toronto and New York have all shown their hands.",
+  "coverNote": "Picks are marked with a dot. Director, cinematographer and scores are reserved for picks; everything else runs one line. Scores were checked when this issue was compiled — *not yet rated* means no published score was available at that point. A bordered tag flags work dealing in cults, conspiracy movements or political extremism.",
+  "sections": [
+    {
+      "title": "Television",
+      "eyebrow": "Series, limited series & docuseries",
+      "tocLine": "Manson, Lockerbie, and reptile smugglers",
+      "kicker": "Fifteen days of premieres across HBO, Netflix, Apple TV+, Prime Video, Hulu and the BBC. Three of them are worth your evening; the rest are here so you can see what you are skipping.",
+      "blocks": [
+        {
+          "type": "standfirst",
+          "text": "An unusually strong fortnight for non-fiction. The best thing on television right now is a five-part series about lizards, which is not a sentence anyone expected to write, and the week's most quietly alarming hour is a BBC documentary about men who want to build their own countries."
+        },
+        { "type": "subhead", "text": "Picks" },
+        {
+          "type": "pick",
+          "title": "Monsters of God",
+          "meta": "HBO / HBO Max · five parts · premiered August 6",
+          "director": "Eric Goode",
+          "extraCredit": "From Bryan Christy's *The Lizard King*",
+          "scores": { "Rotten Tomatoes": "100%", "IMDb": "not yet rated" },
+          "why": [
+            "Goode made *Tiger King*, and the temptation is to file this next to it and move on. Don't. Where that series ran on chaos, this one runs on patience — years of embedded access to reptile traffickers, collectors and the federal agents chasing them, with Goode's camera holding on people long after a normal documentary would cut away.",
+            "The reptiles are the pretext. The subject is the particular American appetite for owning something rare enough to justify a life built around it, and Goode films that appetite with the deadpan curiosity Errol Morris brings to his own obsessives. It took the Audience Award in SXSW's TV Premieres section in March and arrives without a bad review on the board."
+          ]
+        },
+        {
+          "type": "pick",
+          "title": "The Bombing of Pan Am 103",
+          "meta": "Netflix (US) · six parts · arrived July 30",
+          "director": "Michael Keillor",
+          "extraCredit": "Created by Jonathan Lee & Adam Morane-Griffiths",
+          "scores": { "Rotten Tomatoes": "100%", "IMDb": "not yet rated" },
+          "why": [
+            "A BBC co-production that ran in the UK first and has now landed in the US, where it went to No. 2 worldwide inside a week. Lee's second pass at the Lockerbie material strips out every sensational instinct the subject invites and stays with the procedure: Scottish local police and the FBI, thrown together in a field of wreckage, working a case that took twelve years to reach a courtroom.",
+            "The restraint is the point and also the limit — the Hollywood Reporter's line, that it delivers a less-than-memorable portrait of an indelible event, is fair. But the reconstruction of how the investigation actually held together is superb, and the show never once reaches for the bomber's psychology as entertainment."
+          ],
+          "tags": ["Extremism"]
+        },
+        {
+          "type": "pick",
+          "title": "Conversations with a Killer: The Charles Manson Tapes",
+          "meta": "Netflix · three parts · premiered August 12",
+          "extraCredit": "Fifth and final season of the series",
+          "scores": { "Rotten Tomatoes": "not yet rated", "IMDb": "not yet rated" },
+          "why": [
+            "Netflix retires the format on its most over-covered subject, which makes the framing the whole question: this one goes at Manson as a recruiter rather than a murderer — how the Family was assembled, what it offered the people who joined, and how a trial became a national performance.",
+            "Worth a look if *Wild Wild Country* is the register you want — the machinery of belief rather than the body count. It is three episodes, it arrived yesterday, and no critical consensus has formed yet."
+          ],
+          "tags": ["Cults"]
+        },
+        { "type": "subhead", "text": "The full list" },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "The Bombing of Pan Am 103",
+          "platform": "Netflix",
+          "desc": "Six-part BBC co-production tracing the twelve-year investigation into the 1988 Lockerbie bombing, new to US Netflix.",
+          "tags": ["Extremism"]
+        },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "Monsters of God",
+          "platform": "HBO / HBO Max",
+          "desc": "Eric Goode's five-part descent into the exotic reptile smuggling underworld and the people who live inside it."
+        },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "Conversations with a Killer: The Charles Manson Tapes",
+          "platform": "Netflix",
+          "desc": "The franchise signs off with three episodes on Manson's rise as a cult leader and the spectacle of his trial.",
+          "tags": ["Cults"]
+        },
+        {
+          "type": "entry",
+          "title": "The Idaho Murders: College Nightmare",
+          "platform": "Netflix",
+          "desc": "Three-part true-crime series on the 2022 University of Idaho killings that went straight to No. 1 worldwide."
+        },
+        {
+          "type": "entry",
+          "title": "The Tech Billionaire Takeover",
+          "platform": "BBC iPlayer",
+          "desc": "Matt Shea spends an hour inside the movement to build privately owned states and route around democracy.",
+          "tags": ["Extremism"]
+        },
+        {
+          "type": "entry",
+          "title": "A Tale of Two Britains",
+          "platform": "BBC iPlayer",
+          "desc": "Documentary on 1930s Britain caught between economic collapse and technological upheaval."
+        },
+        {
+          "type": "entry",
+          "title": "Ted Lasso, S4",
+          "platform": "Apple TV+",
+          "desc": "Jason Sudeikis's relentlessly decent coach returns, weekly through early October."
+        },
+        {
+          "type": "entry",
+          "title": "Women in Blue (Las Azules), S2",
+          "platform": "Apple TV+",
+          "desc": "The Spanish-language crime drama about Mexico's first female police force comes back for a second run."
+        },
+        {
+          "type": "entry",
+          "title": "Reacher, S4",
+          "platform": "Prime Video",
+          "desc": "Three episodes drop at once to open the fourth season."
+        },
+        {
+          "type": "entry",
+          "title": "Sterling Point",
+          "platform": "Prime Video",
+          "desc": "Megan Park's coming-of-age drama about a 17-year-old who inherits a mysterious island in Canada."
+        },
+        {
+          "type": "entry",
+          "title": "Futurama, S14",
+          "platform": "Hulu",
+          "desc": "A two-episode premiere opens the fourteenth season."
+        },
+        {
+          "type": "entry",
+          "title": "Betrayal: Dirty Secrets, S4",
+          "platform": "Hulu",
+          "desc": "Three-episode docuseries premiere built around a Colorado Springs police officer's double life."
+        },
+        {
+          "type": "entry",
+          "title": "Georgie & Mandy's First Marriage, S1",
+          "platform": "HBO Max",
+          "desc": "The Young Sheldon spin-off completes its move to streaming."
+        },
+        {
+          "type": "entry",
+          "title": "Hard Knocks: Training Camp with the Seattle Seahawks",
+          "platform": "HBO / HBO Max",
+          "desc": "The NFL's long-running training-camp docuseries returns, this time in Renton."
+        },
+        {
+          "type": "entry",
+          "title": "My Brilliant Career",
+          "platform": "Netflix",
+          "desc": "Australian period drama adapted from Miles Franklin's 1901 novel of a young woman refusing the life on offer."
+        },
+        {
+          "type": "entry",
+          "title": "Alley Cats",
+          "platform": "Netflix",
+          "desc": "Ricky Gervais's adult animated comedy about a gang of strays, stacked with British stand-ups."
+        },
+        {
+          "type": "entry",
+          "title": "My Life With the Walter Boys, S3",
+          "platform": "Netflix",
+          "desc": "Third season of the ranch-set YA romance, which charted at No. 11 on arrival."
+        },
+        {
+          "type": "entry",
+          "title": "Let's Marry Harry",
+          "platform": "Netflix",
+          "desc": "Dating-experiment format built around a single suitor; debuted at No. 12."
+        },
+        {
+          "type": "entry",
+          "title": "The Chosen in the Wild with Bear Grylls",
+          "platform": "Prime Video",
+          "desc": "The cast of the faith-based drama The Chosen take on survival challenges with Grylls."
+        },
+        {
+          "type": "entry",
+          "title": "Anna Pigeon",
+          "platform": "USA Network",
+          "desc": "Series adaptation of Nevada Barr's mysteries about a park ranger working America's national parks."
+        },
+        {
+          "type": "entry",
+          "title": "Escape from Alcatraz",
+          "platform": "Discovery",
+          "desc": "Documentary special revisiting the 1962 escape and the theories about what happened next."
+        },
+        {
+          "type": "note",
+          "text": "Also premiered in the window but held back here: Our Sticky Love (Netflix, Aug 7) and Age Inappropriate (WE tv, Aug 7), neither of which had a synopsis worth trusting at press time."
+        }
+      ]
+    },
+    {
+      "title": "In Cinemas",
+      "eyebrow": "Wide & limited openings",
+      "tocLine": "Schoenbrun's slasher, Araki's return",
+      "kicker": "Two of the best-reviewed American films of the year opened in the space of a week, and one of them is a summer-camp slasher. The multiplex, meanwhile, belongs entirely to one film.",
+      "blocks": [
+        {
+          "type": "standfirst",
+          "text": "Spider-Man ran away with both weekends and will finish the year as the biggest film in the world, which is the least interesting thing that happened in cinemas this fortnight. The interesting thing is that MUBI put a 35mm slasher into theatres and it came out at a hundred per cent."
+        },
+        { "type": "subhead", "text": "Picks" },
+        {
+          "type": "pick",
+          "title": "Teenage Sex and Death at Camp Miasma",
+          "meta": "MUBI · limited, August 7 · world premiere at Cannes, May 13",
+          "director": "Jane Schoenbrun",
+          "dp": "Eric Yue, on 35mm",
+          "scores": {
+            "Rotten Tomatoes": "100% (48 reviews)",
+            "Metacritic": "91",
+            "IMDb": "not yet rated"
+          },
+          "why": [
+            "Schoenbrun's third feature and their best-reviewed by a distance — not a slasher pastiche but a film about what the slasher did to the people who grew up inside it, with Hannah Einbinder and Gillian Anderson anchoring a story that keeps folding back into itself. Variety's Jessica Kiang called it their most accomplished, most persuasive and most playful work, which is the right order of adjectives.",
+            "Eric Yue's second outing with Schoenbrun after *I Saw the TV Glow*, again on 35mm, and the grain is doing real argumentative work here rather than decorating the thing. If you want formally distinctive genre filmmaking with a directorial signature you could pick out of a lineup, this is the film of the fortnight and it is not close."
+          ]
+        },
+        {
+          "type": "pick",
+          "title": "I Want Your Sex",
+          "meta": "Magnolia Pictures · limited, July 31 · Sundance 2026 premiere · US VOD September 1",
+          "director": "Gregg Araki",
+          "dp": "Tucker Korte",
+          "scores": { "Rotten Tomatoes": "90% (58 reviews)", "IMDb": "5.6" },
+          "why": [
+            "Araki's first feature in a decade, and the reviews and the audience have landed in completely different places — certified fresh at ninety per cent, sitting at 5.6 with users. That gap is the most Araki thing about it.",
+            "Korte's candy-coloured photography builds the cartoon world Araki has always needed, so that the real feeling can arrive sideways. Olivia Wilde and Cooper Hoffman carry an erotic comedy that is funnier and more provocative than it is deep, which is a fair trade for having him back at all."
+          ]
+        },
+        { "type": "subhead", "text": "The full list" },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "Teenage Sex and Death at Camp Miasma",
+          "platform": "MUBI · limited",
+          "desc": "Jane Schoenbrun's Cannes-premiered slasher deconstruction, shot on 35mm, with Hannah Einbinder and Gillian Anderson."
+        },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "I Want Your Sex",
+          "platform": "Magnolia · limited",
+          "desc": "Gregg Araki's first film in ten years, an erotic comedy with Olivia Wilde and Cooper Hoffman."
+        },
+        {
+          "type": "entry",
+          "title": "Spider-Man: Brand New Day",
+          "platform": "Sony / Marvel · wide",
+          "desc": "Destin Daniel Cretton's sequel cleared a billion dollars worldwide inside two weeks and led both weekends."
+        },
+        {
+          "type": "entry",
+          "title": "Super Troopers 3",
+          "platform": "Wide",
+          "desc": "Broken Lizard reunite for a third round of highway-patrol misrule, their first since 2018."
+        },
+        {
+          "type": "entry",
+          "title": "One Night Only",
+          "platform": "Wide",
+          "desc": "Callum Turner and Monica Barbaro keep losing each other across a single night of detours in the city."
+        },
+        {
+          "type": "entry",
+          "title": "Ice Cream Man",
+          "platform": "Wide",
+          "desc": "A summer town slides into madness once the neighbourhood ice cream man starts handing out the wrong treats."
+        },
+        {
+          "type": "note",
+          "text": "Also opened between July 31 and August 7 with no synopsis I could verify at press time: The Gentleman Thief, The Samurai and the Prisoner, Mustache, Terrestrial and The Run. Next Friday brings David Robert Mitchell's The End of Oak Street for A24 and Willem Dafoe in The Birthday Party."
+        }
+      ]
+    },
+    {
+      "title": "Streaming",
+      "eyebrow": "The majors, plus repertory",
+      "tocLine": "Pálmason, Kopple, De Palma, Duvivier",
+      "kicker": "What landed on the big services, and — more usefully — what Criterion and MUBI put up this month. The repertory shelf is the better half of the section.",
+      "blocks": [
+        {
+          "type": "standfirst",
+          "text": "The majors had a quiet fortnight for film: one big Netflix genre swing that doesn't quite work, and a handful of acquisitions clearing their windows. The curated services had an excellent one."
+        },
+        { "type": "subhead", "text": "Picks" },
+        {
+          "type": "pick",
+          "title": "The Love That Remains",
+          "meta": "MUBI · new to the service this month",
+          "director": "Hlynur Pálmason",
+          "scores": { "Rotten Tomatoes": "94%", "IMDb": "6.8" },
+          "why": [
+            "The *Godland* director turns to a family working out how to live after a separation, across a full turn of the seasons in rural Iceland. Pálmason shoots landscape the way Wenders shoots road — as something that keeps happening to the people standing in it — and the film is far funnier than that description suggests.",
+            "Intimate and expansive at once, which is a hard pair to hold. If you only take one thing off MUBI this month, take this."
+          ]
+        },
+        {
+          "type": "pick",
+          "title": "Barbara Kopple: Harlan County USA & American Dream",
+          "meta": "Criterion Channel · director retrospective, August",
+          "director": "Barbara Kopple",
+          "extraCredit": "Both films won the Academy Award for Documentary Feature",
+          "why": [
+            "Two of the toughest documentaries America has produced, up together. *Harlan County USA* puts Kopple's camera between striking Kentucky miners and company guns in 1973 and simply does not leave; *American Dream* follows the Hormel strike in Austin, Minnesota a decade later and watches a union come apart from the inside.",
+            "This is the American vernacular at its least sentimental — work, faith, solidarity and the exact point at which each gives way. Kopple also has a new film, *Union Town*, premiering at Toronto next month, so the timing is not an accident."
+          ]
+        },
+        { "type": "subhead", "text": "New to the majors" },
+        {
+          "type": "entry",
+          "title": "The Last House",
+          "platform": "Netflix",
+          "desc": "Louis Leterrier's sealed-house thriller with Wagner Moura and Greta Lee — strong dread, thin logic, mixed reviews."
+        },
+        {
+          "type": "entry",
+          "title": "Mother Mary",
+          "platform": "HBO Max",
+          "desc": "Anne Hathaway and Michaela Coel in a starry, much-delayed drama finally reaching streaming."
+        },
+        {
+          "type": "entry",
+          "title": "Normal",
+          "platform": "HBO Max",
+          "desc": "Bob Odenkirk action comedy about a man whose ordinary life is not the one he used to have."
+        },
+        {
+          "type": "entry",
+          "title": "The Strangers: Chapter 2",
+          "platform": "HBO Max",
+          "desc": "The second instalment of the rebooted home-invasion trilogy arrives on subscription."
+        },
+        { "type": "subhead", "text": "Repertory & Curated" },
+        {
+          "type": "entry",
+          "pick": true,
+          "title": "Barbara Kopple: Harlan County USA, American Dream",
+          "platform": "Criterion Channel",
+          "desc": "Two Oscar-winning labour documentaries, filmed from inside the picket line a decade apart."
+        },
+        {
+          "type": "entry",
+          "title": "Ringo Lam",
+          "platform": "Criterion Channel",
+          "desc": "Seven films from the City on Fire director, including both Prison on Fire pictures, School on Fire and Full Alert."
+        },
+        {
+          "type": "entry",
+          "title": "Julien Duvivier",
+          "platform": "Criterion Channel",
+          "desc": "Poetic-realist retrospective spanning David Golder, Pépé le Moko, Panique and Anna Karenina."
+        },
+        {
+          "type": "entry",
+          "title": "James Baldwin On-Screen",
+          "platform": "Criterion Channel",
+          "desc": "I Heard It Through the Grapevine, The Price of the Ticket and three shorts."
+        },
+        {
+          "type": "entry",
+          "title": "Desert Trips",
+          "platform": "Criterion Channel",
+          "desc": "Four films of alienation, obsession and drift on the highways of the American Southwest."
+        },
+        {
+          "type": "entry",
+          "title": "Rock Biopics That Don't Suck",
+          "platform": "Criterion Channel",
+          "desc": "Yasi Salek's selection — I'm Not There, Velvet Goldmine, 24 Hour Party People, Control."
+        },
+        {
+          "type": "entry",
+          "title": "Neo Sora: Three Shorts",
+          "platform": "Criterion Channel",
+          "desc": "Early short work from the director of Ryuichi Sakamoto: Opus."
+        },
+        {
+          "type": "entry",
+          "title": "Brian De Palma",
+          "platform": "MUBI",
+          "desc": "A collection of the director's thrillers, split-diopters and all."
+        },
+        {
+          "type": "entry",
+          "title": "Joanna Hogg",
+          "platform": "MUBI",
+          "desc": "Director spotlight on the maker of The Souvenir and Exhibition."
+        },
+        {
+          "type": "entry",
+          "title": "Tuning In: Sonic Journeys",
+          "platform": "MUBI",
+          "desc": "Films built around sound, including Brett Morgen's Bowie collage Moonage Daydream."
+        },
+        {
+          "type": "entry",
+          "title": "Romería",
+          "platform": "MUBI",
+          "desc": "Carla Simón's autofiction of a young woman in Galicia excavating the parents she never knew; IMDb 6.9."
+        },
+        {
+          "type": "entry",
+          "title": "Rosebush Pruning",
+          "platform": "MUBI",
+          "desc": "Karim Aïnouz at his most formally daring, treating desire as a political battleground."
+        },
+        {
+          "type": "entry",
+          "title": "Ancestral Visions of the Future",
+          "platform": "MUBI",
+          "desc": "Lemohang Jeremiah Mosese's essay film on memory, family and belonging."
+        },
+        {
+          "type": "entry",
+          "title": "Army of Shadows",
+          "platform": "MUBI",
+          "desc": "Melville's Resistance masterwork, cold and procedural, back on the service."
+        },
+        {
+          "type": "entry",
+          "title": "The Assistant",
+          "platform": "MUBI",
+          "desc": "Kitty Green's quiet procedural of complicity across one day in a film executive's office."
+        },
+        {
+          "type": "entry",
+          "title": "Godzilla",
+          "platform": "MUBI",
+          "desc": "A run of Toho kaiju pictures gathered into a single collection."
+        }
+      ]
+    },
+    {
+      "title": "Festivals",
+      "eyebrow": "Live, announced & upcoming",
+      "tocLine": "Locarno on the lake; the autumn slate lands",
+      "kicker": "Two festivals are running as this goes out and one opens tomorrow. Meanwhile the entire autumn circuit — Venice, Telluride, Toronto, New York — showed its cards inside a fortnight.",
+      "blocks": [
+        {
+          "type": "standfirst",
+          "text": "This is the fortnight the year's shape becomes visible. Venice put Herzog, Kore-eda, Lee Chang-dong and McDonagh in one competition; Toronto and New York filled in around it; and Locarno is still going, with the Golden Leopard two days out."
+        },
+        { "type": "subhead", "text": "Running now" },
+        {
+          "type": "festival",
+          "name": "Locarno 79",
+          "status": "Live",
+          "when": "August 5–15 · Locarno, Switzerland",
+          "body": [
+            "233 films, 103 world premieres, and a seventeen-title Concorso Internazionale judged by Fabrice Du Welz. Hong Sangsoo's *Nowhere to Lay My Eyes* world-premiered today — Cinema Guild has already taken US rights — and Denis Côté's *Nobody's Violence*, about a travelling girl selling euthanasia in a dystopia, played on the 8th. Albert Serra has a new film out of competition.",
+            "Also in competition: Matheus Farias and Enock Carvalho's *A Margem do Rio*, Salvatore Mereu's *Alberi Erranti* and Maria Bäck's *Brave New Love*. Honorary awards go to Darren Aronofsky, Virginie Efira and Asia Argento; the Piazza Grande has Petra Volpe's *Frank & Louis* plus Swiss premieres for James Gray's *Paper Tiger* and Olivia Wilde's *The Invite*.",
+            "The Golden Leopard is announced when the festival closes on August 15 — it will be in next week's issue."
+          ]
+        },
+        {
+          "type": "festival",
+          "name": "Melbourne International 74",
+          "status": "Live",
+          "when": "August 6–23 · Melbourne, plus MIFF Online from Aug 14",
+          "body": [
+            "Opened with the Australian premiere of *Wicker*, the Sundance fable from Eleanor Wilson and Alex Huston Fischer, with Olivia Colman, Alexander Skarsgård, Peter Dinklage, Richard E. Grant and Elizabeth Debicki. It also plays in the Bright Horizons competition, with both directors in attendance."
+          ]
+        },
+        { "type": "subhead", "text": "Opens tomorrow" },
+        {
+          "type": "festival",
+          "name": "Sarajevo 32",
+          "when": "August 14–21 · Sarajevo",
+          "body": [
+            "Opens with Paweł Pawlikowski's *Fatherland*, fresh from competition at Cannes. 51 films chase the Heart of Sarajevo across four competitions — 21 of them world premieres — chosen from 1,215 submissions. The documentary competition alone runs 22 titles out of 305 entries, nine of them world premieres.",
+            "Emily Watson chairs the feature jury. Asghar Farhadi collects the Honorary Heart of Sarajevo."
+          ]
+        },
+        { "type": "subhead", "text": "Just wrapped" },
+        {
+          "type": "festival",
+          "name": "Fantasia 30",
+          "status": "Closed",
+          "when": "Montréal · winners announced this fortnight",
+          "body": [
+            "The thirtieth edition closed out with a genuinely strong slate of winners, and a French film taking the animation prize for the first time in the festival's history."
+          ],
+          "winnersLabel": "Winners",
+          "winners": "*Cheval Noir, Best Film:* Nightborn (Hanna Bergholm). *Best Director:* Kasper Kalle, No Rest for the Wicked. *Acting:* Seidi Haarla; Pilou Asbæk. *Cinematography & Score:* Ferine (Andrea Corsini) — Fabrizio La Palombara, and Pino Donaggio. *Satoshi Kon Award:* Blaise (Jean-Paul Guigue, Dimitri Planchon). *Northern Excellence:* Black Zombie (Maya Annik Bedward). *Audience, International:* I Love Paris (Nicky Murphy)."
+        },
+        { "type": "subhead", "text": "Announced, and coming" },
+        {
+          "type": "festival",
+          "name": "Venice 83",
+          "when": "September 2–12 · Lido",
+          "body": [
+            "The stacked one. Danny Boyle's *Ink* opens, Giovanni Veronesi's *Dio ride* closes, and the competition carries Werner Herzog's *Bucking Fastard* — the true story of inseparable twin sisters, played by Rooney and Kate Mara — alongside Hirokazu Kore-eda's live-action *Look Back*, Lee Chang-dong's *Possible Love*, Martin McDonagh's *Wild Horse Nine* and Florian Zeller's *Bunker*.",
+            "Maggie Gyllenhaal presides over the jury. George Clooney and Ellen Burstyn take Golden Lions for lifetime achievement."
+          ]
+        },
+        {
+          "type": "festival",
+          "name": "Telluride 53",
+          "when": "September 4–7 · Telluride, Colorado",
+          "body": [
+            "Rebecca Hall is this year's Guest Director, shaping a slice of the programme. As ever, the lineup stays sealed until the day before it opens."
+          ]
+        },
+        {
+          "type": "festival",
+          "name": "Toronto 51",
+          "when": "September 10–20 · Toronto",
+          "body": [
+            "293 films. Ryûsuke Hamaguchi opens the festival with *All of a Sudden*. The TIFF Docs slate landed on August 5 — 21 titles from 20 countries, 18 of them world premieres, more than two-thirds directed by women. Rebeca Huntt's *Rapinoe* opens the section; Alex Gibney brings *Musk*; Barbara Kopple brings *Union Town*, on the current New York labour fights.",
+            "The final additions include Peter Ho-Sun Chan's *The Road Not Taken*, Cody Fern's *Closing Night*, and McDonagh's *Wild Horse Nine* moving north from the Lido."
+          ]
+        },
+        {
+          "type": "festival",
+          "name": "New York 64",
+          "when": "September 25 – October 12 · Film at Lincoln Center",
+          "body": [
+            "32 films from 31 countries in the Main Slate, announced this month. James Gray's *Paper Tiger* opens as a North American premiere; Tony Gilroy's *Behemoth!* is the centrepiece; Ava DuVernay's documentary *14th* closes. Cannes winners *Minotaur*, *Fatherland* and *All of a Sudden* all make the cut, and seventeen directors are in the Main Slate for the first time."
+          ]
+        },
+        {
+          "type": "festival",
+          "name": "Sundance 2027",
+          "when": "January 21–31 · Boulder, Colorado",
+          "body": [
+            "Dates and venues confirmed for the first Boulder edition after the long Park City run. World premieres run January 21–26, at-home screenings January 28–31, awards on the 29th. Programming will not be announced until much closer to the festival; volunteer applications open August 31."
+          ]
+        }
+      ]
+    }
+  ],
+  "wildcard": {
+    "tocLine": "Herzog on a televangelist, 1981",
+    "kicker": "One film a week that isn't new, chosen off the same instincts as the picks.",
+    "title": "God's Angry Man",
+    "year": "1981",
+    "director": "Werner Herzog",
+    "runtime": "43 min",
+    "extraCredit": "West German television, as *Glaube und Währung*",
+    "body": [
+      "Herzog spends three-quarters of an hour with Dr. Gene Scott — Stanford PhD, ordained minister, Los Angeles broadcaster — as he sits in a studio at three in the morning refusing to preach until the phones ring with enough money. He waits. He glares into the lens. He berates his own congregation. Then he waits some more, and Herzog just keeps rolling.",
+      "It is the missing link between everything else on your list. The belief systems of *Wild Wild Country*, the American vernacular strangeness that *How To with John Wilson* wanders into, the deadpan portraiture Errol Morris was building at exactly the same moment in *Vernon, Florida* — all of it is here, in a film short enough to watch before dinner. Herzog is not mocking Scott and he is not defending him. He is doing the harder thing, which is watching a man construct a reality on television and letting the camera hold long past the point of comfort.",
+      "The FCC was trying to shut Scott down throughout. That fight is the film's engine, but its real subject is the silence between the pleas — a broadcaster alone in a room, waiting for proof that anyone is out there."
+    ],
+    "where": "Tubi (free), Prime Video, and the Internet Archive"
+  }
+}
