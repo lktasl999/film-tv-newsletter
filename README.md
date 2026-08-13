@@ -115,6 +115,22 @@ export MAIL_FROM="Film+Tv Updates <updates@yourdomain.com>"
 `MAIL_TO` defaults to `aslockett@gmail.com`. Subject is
 `Film+Tv Updates — <rangeLabel>`.
 
+### Network requirement
+
+Sending needs outbound access to the mail host, and a sandboxed build environment
+usually does not have it. Checked on 2026-08-13 from the Claude Code environment
+`env_01GN6oevhHzGTqKA5w7VLgYa`:
+
+| Route | Result |
+| --- | --- |
+| `smtp.gmail.com:465` / `:587` | TCP connect times out — SMTP ports are not open |
+| `api.resend.com:443` and other mail APIs | egress proxy answers `403` to `CONNECT` |
+
+So credentials alone are not enough: correct ones still fail here. Either add the
+mail host to the environment's allowed domains (an HTTPS API such as Resend is the
+right shape, since only 443 goes through the proxy), or run `src/send.js` somewhere
+with open egress — a GitHub Actions runner, or your own machine.
+
 ## Layout
 
 ```
