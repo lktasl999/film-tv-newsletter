@@ -1,0 +1,201 @@
+{
+  "issue": 1,
+  "date": "2026-09-01",
+  "range_label": "3–31 August 2026",
+  "cover_note": "Sixteen stories from twelve countries, taken from the local and regional press that ran them. Issue one covers a longer window than the fortnight this will settle into, because the archive started empty. Where a source is not in English the language is marked. Nothing here came from an aggregator.",
+  "colophon_note": "Issue one was assembled without direct access to the article pages: the outlets below were reached through search, and the summaries are drawn from what search returned rather than from the pages themselves. Treat the detail as a strong lead rather than as checked reporting until the links are opened. Every source named is the outlet that ran the story.",
+  "search_count": 56,
+  "empty_searches": [
+    "World Bog Snorkelling Championships, Llanwrtyd Wells, 30 Aug — no result coverage indexed yet",
+    "World Gravy Wrestling Championships, Bacup, 31 Aug — winner not yet reported",
+    "Nigeria, Kenya, Ghana, South Africa — local press produced nothing usable across four queries",
+    "Czech and Slovak regional press — nothing surfaced in either language",
+    "Nordic regional press — nothing surfaced in Norwegian, Swedish or Finnish",
+    "South Korea local press — festival listings only, no reporting",
+    "India state editions — nothing dateable inside the window",
+    "Brazil and Argentina interior press — nothing dateable inside the window",
+    "Netherlands and Denmark local press — village bulletins only"
+  ],
+  "sections": [
+    {
+      "title": "Dispatches",
+      "stories": [
+        {
+          "headline": "Student finds nine million euros behind cellar wall",
+          "town": "Sint-Gillis-bij-Dendermonde", "region": "East Flanders", "country": "Belgium",
+          "date": "2026-08-14",
+          "summary": "Kobe, eighteen, was laying a sewage pipe for the firm De Brand when part of a foundation came away and a chest appeared: more than four thousand coins and forty gold bars. The crew briefly discussed keeping it. Prosecutors do not know whose it is. Police have warned off treasure hunters.",
+          "frame": "A broken foundation, a chest, and four men deciding what to do next.",
+          "outlet": "VRT NWS",
+          "url": "https://www.vrt.be/vrtnws/nl/2026/08/14/schat-dendermonde-goud-vondst-vinder-arbeiders/",
+          "language": "Dutch"
+        },
+        {
+          "headline": "Village buys back the bar it lost",
+          "town": "Pietramontecorvino", "region": "Apulia", "country": "Italy",
+          "date": "2026-08-25",
+          "summary": "The Bar Caffè Basile opened in 1888, after Aniello Basile went to Naples to learn gelato, and closed in January after a hundred and thirty-eight years. Residents have reopened it as a space they run themselves: a drink, cards, board games, and somewhere to sit.",
+          "frame": "A card table where the counter used to be, and no barman.",
+          "outlet": "Inside Capitanata",
+          "url": "https://www.insidecapitanata.it/pietramontecorvino-riapre-lo-storico-bar-caffe-basile-dopo-138-anni/",
+          "language": "Italian"
+        },
+        {
+          "headline": "Islanders block the ferry over a banned fiesta",
+          "town": "Illa de Ons", "region": "Pontevedra", "country": "Spain",
+          "date": "2026-08-16",
+          "summary": "The national park refused to authorise the San Xaquín fiesta because its 2019 management plan bans amplified sound, and the band needs a PA. Residents, who say the fiesta is more than two hundred years old, turned back three boatloads of day trippers at the jetty.",
+          "frame": "A line of islanders on a jetty, facing a boat full of tourists.",
+          "outlet": "Diario de Pontevedra",
+          "url": "https://www.diariodepontevedra.es/articulo/o-morrazo/ons-bloquea-tres-desembarcos-senal-lucha-fiestas-patronales/202608162001011463919.html",
+          "language": "Spanish"
+        },
+        {
+          "headline": "Straw tractors line the roads into the parish",
+          "town": "Kocierzew Południowy", "region": "Łódź", "country": "Poland",
+          "date": "2026-08-23",
+          "summary": "Villagers built greeting figures out of straw bales and set them along every approach road before the harvest festival: tractors, cartoon characters, and a Łowicz couple in regional dress. The procession that followed was led by the Boczki Chełmońskie song and dance ensemble.",
+          "frame": "A straw tractor at a junction, facing whoever is arriving.",
+          "outlet": "Nowy Łowiczanin",
+          "url": "https://lowiczanin.info/wiadomosci-z-regionu/slomiane-witacze-stanely-przy-drogach-mieszkancy-gminy-w-lodzkiem-pokazali-fantazje/xfh6yHsvBiNLpI5JGwfp",
+          "language": "Polish"
+        },
+        {
+          "headline": "Thieves take five statues, including a bronze turtle",
+          "town": "Richmond Hill", "region": "Ontario", "country": "Canada",
+          "date": "2026-08-25",
+          "summary": "Five statues were removed from Lake Wilcox Park, among them a bronze turtle weighing two hundred pounds. York Regional Police have made no arrests and are appealing for information. It was one of several bronze thefts reported across North America in August, most of them from public parks.",
+          "frame": "An empty plinth at the edge of a suburban lake.",
+          "outlet": "CP24",
+          "url": "https://www.cp24.com/local/toronto/2026/08/25/police-seek-info-after-5-statues-including-a-large-bronze-turtle-stolen-from-richmond-hill-park/",
+          "language": null
+        }
+      ]
+    },
+    {
+      "title": "Subcultures",
+      "stories": [
+        {
+          "headline": "Village has cooked for three hundred years",
+          "town": "Alaattin", "region": "Bingöl", "country": "Turkey",
+          "date": "2026-08-20",
+          "summary": "On the third Thursday of August the village climbs the hill to Ömer Dede's grave, sacrifices about twenty goats and cooks them in seven or eight cauldrons. Two thousand people came this year, some from Diyarbakır. In the years it was skipped, they say, there was drought and locusts.",
+          "frame": "Eight cauldrons on a hillside, and two thousand people waiting to be fed.",
+          "outlet": "Bingöl Kent Haber",
+          "url": "https://www.bingolkenthaber.com/bingolde-300-yillik-gelenek-icin-binlerce-kisi-bulustu",
+          "language": "Turkish"
+        },
+        {
+          "headline": "A town lights a hundred torches against Fuji",
+          "town": "Fujiyoshida", "region": "Yamanashi", "country": "Japan",
+          "date": "2026-08-26",
+          "summary": "More than a hundred torches three metres high, bound into the shape of bamboo shoots, are lit at once along the main street, with smaller stacks outside each house. The festival has run for over four hundred and fifty years, to keep Mount Fuji from erupting.",
+          "frame": "A street of three-metre torches burning at once, under the mountain.",
+          "outlet": "Fujiyoshida City",
+          "url": "https://fujiyoshida.net/event/154",
+          "language": "Japanese"
+        },
+        {
+          "headline": "Village keeps a rite first held in 1483",
+          "town": "Desa Suci", "region": "Gresik", "country": "Indonesia",
+          "date": "2026-08-12",
+          "summary": "Rebo Wekasan runs for five days: graves visited on the Saturday, the Quran read through on the Sunday, then rice cones carried in procession to the Mambaut Tho'at mosque. The village claims the oldest such observance in Java. Indonesia listed it as intangible heritage last year.",
+          "frame": "Rice cones moving down a street towards a mosque.",
+          "outlet": "detikJatim",
+          "url": "https://www.detik.com/jatim/budaya/d-8613296/rebo-wekasan-desa-suci-2026-tradisi-ratusan-tahun-yang-masih-lestari",
+          "language": "Indonesian"
+        },
+        {
+          "headline": "A thousand people drink Malört simultaneously",
+          "town": "Chicago", "region": "Illinois", "country": "United States",
+          "date": "2026-08-31",
+          "summary": "More than a thousand ticket holders took a shot of Malört at the same moment at a bar on West Kinzie, timed at ten to eight, with bars from California to Maryland toasting alongside. The record does not yet exist; Guinness is being asked to create it.",
+          "frame": "A thousand raised glasses of something nobody enjoys drinking.",
+          "outlet": "Block Club Chicago",
+          "url": "https://blockclubchicago.org/2026/08/31/chicagoans-set-malort-record-for-most-people-to-down-a-shot-at-same-time/",
+          "language": null
+        }
+      ]
+    },
+    {
+      "title": "Unexplained",
+      "stories": [
+        {
+          "headline": "Drought returns a village drowned in 1976",
+          "town": "Nether Hambleton", "region": "Rutland", "country": "England",
+          "date": "2026-08-11",
+          "summary": "Stonework and building outlines have reappeared at the edge of Rutland Water, where the Gwash valley was dammed and Nether Hambleton demolished and flooded fifty years ago. Its residents were rehoused nearby. The East Midlands was formally declared in drought the same month.",
+          "frame": "Foundations of a demolished village drying out on a reservoir bed.",
+          "outlet": "ITV News Central",
+          "url": "https://www.itv.com/news/central/2026-08-11/drought-conditions-exposes-remains-of-village-underneath-rutland-water",
+          "language": null
+        },
+        {
+          "headline": "Five red lights over the railway yard",
+          "town": "San Luis Potosí", "region": null, "country": "Mexico",
+          "date": "2026-08-18",
+          "summary": "A railway worker filmed twenty-five seconds of at least five red points of light moving separately across the sky before dawn, then vanishing. Explanations offered locally range from drones and flares to red sprites. No government department has said anything at all.",
+          "frame": "Five red points holding still above a rail yard at four in the morning.",
+          "outlet": "El Informador",
+          "url": "https://www.informador.mx/mexico/san-luis-potosi-que-son-las-luces-rojas-captadas-en-video-20260819-0101.html",
+          "language": "Spanish"
+        },
+        {
+          "headline": "The hum arrived with the data centre",
+          "town": "Vineland", "region": "New Jersey", "country": "United States",
+          "date": "2026-08-17",
+          "summary": "Residents near the DataOne site describe a noise that comes off the windows and the metal roof and does not stop. The county health department has already cited the operator for night-time noise. The planning board approved the next phase eight to one, past eleven at night.",
+          "frame": "A theatre emptying at midnight while the board is still voting.",
+          "outlet": "WHYY",
+          "url": "https://whyy.org/articles/data-center-artificial-intelligence-vineland-new-jersey/",
+          "language": null
+        }
+      ]
+    },
+    {
+      "title": "Characters",
+      "stories": [
+        {
+          "headline": "Three games short of the whole library",
+          "town": "Puyallup", "region": "Washington", "country": "United States",
+          "date": "2026-08-24",
+          "summary": "Roger Holler spent nearly forty years assembling 860 Nintendo cartridges and was three titles from a complete set. His family came home to a smashed door and empty shelves. He told a reporter he does not think he will ever collect anything again.",
+          "frame": "An empty wall of shelving where a complete collection nearly stood.",
+          "outlet": "FOX 13 Seattle",
+          "url": "https://www.fox13seattle.com/news/wa-family-who-50k-nes-collection-stolen",
+          "language": null
+        },
+        {
+          "headline": "Retired coastguard builds his past in the garden",
+          "town": "Qualicum Beach", "region": "British Columbia", "country": "Canada",
+          "date": "2026-08-23",
+          "summary": "After forty-one years with the Canadian Coast Guard, a carpenter returned to model railways and laid a line through his back garden. He has built every structure along the route by hand, some invented, some copied from places the couple used to go, including a drive-in.",
+          "frame": "A hand-built drive-in, at scale, on a lawn on Vancouver Island.",
+          "outlet": "Parksville Qualicum Beach News",
+          "url": "https://pqbnews.com/2026/08/23/vancouver-island-couples-backyard-railway-tracks-decades-of-history/",
+          "language": null
+        },
+        {
+          "headline": "Mayor of six is also the street sweeper",
+          "town": "Torremochuela", "region": "Guadalajara", "country": "Spain",
+          "date": "2026-08-17",
+          "summary": "Constantino Martínez Gaona is eighty-one, mayor of the smallest municipality in Spain, and for ten months of the year its only resident. The other five registered inhabitants farm from Molina. In fiesta week the fifty-four houses open and the population goes to about three hundred.",
+          "frame": "Fifty-three shuttered houses and one with the lights on.",
+          "outlet": "El Digital Castilla-La Mancha",
+          "url": "https://www.elespanol.com/eldigitalcastillalamancha/region/guadalajara/20260817/constantino-vive-solo-meses-ano-pueblo-guadalajara-huerto-siembro-entretengo-trt/1003744355490_0.html",
+          "language": "Spanish"
+        }
+      ]
+    }
+  ],
+  "longer": {
+    "headline": "The guga hunt is refused a licence",
+    "town": "Ness", "region": "Isle of Lewis", "country": "Scotland",
+    "date": "2026-08-03",
+    "summary": "Every August since at least the fifteenth century, ten men from Ness have sailed forty miles north to Sula Sgeir, a bare rock in the Atlantic, and spent a fortnight taking young gannets — guga — from the cliffs, salting them and bringing them home. The hunt has run under licence for decades, capped at two thousand birds. This year NatureScot refused, for the first time in recorded history. Its board commissioned a new population model after a seventeen per cent decline across the north-east Atlantic gannet population, and concluded that harm was possible even at five hundred birds. The refusal does not bar future applications. What has changed on the island is the volume: residents describe months of online abuse, and one told a reporter the community had been drowned out, silenced and shouted at.",
+    "frame": "Ten men, a bare Atlantic rock, and two weeks of salt barrels.",
+    "outlet": "STV News",
+    "url": "https://news.stv.tv/highlands-islands/islanders-refused-permission-to-hold-annual-guga-hunt",
+    "language": null
+  }
+}

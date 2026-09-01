@@ -1,1 +1,130 @@
-{}
+{
+  "bingolkenthaber.com": {
+    "outlet": "Bingöl Kent Haber",
+    "country": "Turkey",
+    "language": "Turkish",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "blockclubchicago.org": {
+    "outlet": "Block Club Chicago",
+    "country": "United States",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "cp24.com": {
+    "outlet": "CP24",
+    "country": "Canada",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "detik.com": {
+    "outlet": "detikJatim",
+    "country": "Indonesia",
+    "language": "Indonesian",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "diariodepontevedra.es": {
+    "outlet": "Diario de Pontevedra",
+    "country": "Spain",
+    "language": "Spanish",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "elespanol.com": {
+    "outlet": "El Digital Castilla-La Mancha",
+    "country": "Spain",
+    "language": "Spanish",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "fox13seattle.com": {
+    "outlet": "FOX 13 Seattle",
+    "country": "United States",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "fujiyoshida.net": {
+    "outlet": "Fujiyoshida City",
+    "country": "Japan",
+    "language": "Japanese",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "informador.mx": {
+    "outlet": "El Informador",
+    "country": "Mexico",
+    "language": "Spanish",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "insidecapitanata.it": {
+    "outlet": "Inside Capitanata",
+    "country": "Italy",
+    "language": "Italian",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "itv.com": {
+    "outlet": "ITV News Central",
+    "country": "England",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "lowiczanin.info": {
+    "outlet": "Nowy Łowiczanin",
+    "country": "Poland",
+    "language": "Polish",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "news.stv.tv": {
+    "outlet": "STV News",
+    "country": "Scotland",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "pqbnews.com": {
+    "outlet": "Parksville Qualicum Beach News",
+    "country": "Canada",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "vrt.be": {
+    "outlet": "VRT NWS",
+    "country": "Belgium",
+    "language": "Dutch",
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  },
+  "whyy.org": {
+    "outlet": "WHYY",
+    "country": "United States",
+    "language": null,
+    "hits": 1,
+    "first_issue": 1,
+    "last_issue": 1
+  }
+}

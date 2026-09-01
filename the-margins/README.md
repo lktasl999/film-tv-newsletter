@@ -96,3 +96,27 @@ visible rather than silent.
 
 Issue numbers auto-increment from `archive/seen.json`; nothing needs to be
 tracked by hand.
+
+A Claude routine (`THE MARGINS — fortnightly issue`, `0 8 * * 1`) fires a fresh
+session every Monday at 08:00 UTC. Cron cannot express "fortnightly", so the
+routine's first instruction is a due-check: it reads the newest `issue_date` in
+`seen.json` and stops without doing anything if the last issue is under thirteen
+days old. The archive is the schedule; the cron is just a heartbeat.
+
+## Known constraint — network access
+
+Issue 01 was built in an environment with no general web egress. `WebFetch` and
+`curl` were refused for every news domain (Block Club Chicago, ITV, BBC, VRT, Le
+Monde, even Wikipedia); only package registries, Google Fonts and the GitHub API
+resolved. Search worked, because it runs server-side.
+
+That means article pages could not be opened, so the summaries in issue 01 are
+drawn from what search returned rather than from the pages themselves, and no
+URL was verified. The issue says so on its own colophon page rather than
+implying otherwise, and `--check-links` reports the blocked network instead of
+condemning the links.
+
+If you want the research done to the standard `RESEARCH.md` describes, the
+environment needs a network policy that permits general web egress — see
+https://code.claude.com/docs/en/claude-code-on-the-web. Nothing else about the
+pipeline changes.
