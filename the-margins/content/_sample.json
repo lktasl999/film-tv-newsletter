@@ -1,0 +1,175 @@
+{
+  "issue": 0,
+  "date": "2026-09-01",
+  "range_label": "Design proof",
+  "cover_note": "PLACEHOLDER COPY. Every story on the following pages is invented and every link is a dead example — this file exists only to show the typography, the grid and the page rhythm at full length. Text is set to the real word counts: headlines under eight words, summaries forty to sixty, image lines under fifteen.",
+  "colophon_note": "Placeholder. In a real issue this page lists every outlet the fortnight drew on, by country, so the geographic spread is legible at a glance and the archive has something to grow from.",
+  "search_count": 0,
+  "empty_searches": [],
+  "sections": [
+    {
+      "title": "Dispatches",
+      "stories": [
+        {
+          "headline": "Town votes to keep the wrong clock",
+          "town": "Ardglass", "region": "County Down", "country": "Northern Ireland",
+          "date": "2026-08-21",
+          "summary": "The harbour clock has run eleven minutes fast since a 1987 repair. A council proposal to correct it drew fourteen objections, most citing the fishing fleet, which has timed its departures to the wrong hour for thirty-nine years. Councillors voted six to two to leave it alone.",
+          "frame": "A clock face, eleven minutes ahead, above an empty harbour at dawn.",
+          "outlet": "Down Recorder", "url": "https://example.invalid/down-recorder/harbour-clock", "language": null
+        },
+        {
+          "headline": "Retired surveyor maps every puddle in Kraków",
+          "town": "Kraków", "region": "Lesser Poland", "country": "Poland",
+          "date": "2026-08-24",
+          "summary": "Andrzej Wiśniewski has logged 2,140 standing puddles across the city since 2019, recording depth, duration and drainage. He submits the data to the roads department twice a year. They have never replied. He continues because, he says, somebody has to know where the water goes.",
+          "frame": "A man in a raincoat kneeling with a folding ruler in a puddle.",
+          "outlet": "Gazeta Krakowska", "url": "https://example.invalid/gazeta-krakowska/kaluze", "language": "Polish"
+        },
+        {
+          "headline": "Nobody will admit to the concrete horse",
+          "town": "Bemidji", "region": "Minnesota", "country": "United States",
+          "date": "2026-08-19",
+          "summary": "A life-size concrete horse appeared on the verge of County Road 12 in early August. The county has no record of a permit. Four residents claim to know who made it; none of their accounts agree. The county says it will stay until somebody claims it.",
+          "frame": "A grey concrete horse on a mown verge, facing away from the road.",
+          "outlet": "Bemidji Pioneer", "url": "https://example.invalid/bemidji-pioneer/concrete-horse", "language": null
+        },
+        {
+          "headline": "Village restores a coat of arms nobody remembers",
+          "town": "Sainte-Geneviève-des-Bois", "region": "Loiret", "country": "France",
+          "date": "2026-08-26",
+          "summary": "The commune has been without a crest since 1943 and the mairie has put three reconstructions to a public vote. One is based on a single photograph of a church pew. Turnout so far is thirty-one residents. The mayor has extended the deadline twice.",
+          "frame": "Three painted shields propped on a trestle table in a village hall.",
+          "outlet": "La République du Centre", "url": "https://example.invalid/larep/blason", "language": "French"
+        },
+        {
+          "headline": "Ferry queue becomes an unofficial lending library",
+          "town": "Ullapool", "region": "Ross-shire", "country": "Scotland",
+          "date": "2026-08-28",
+          "summary": "Drivers waiting for the Stornoway sailing have been leaving paperbacks in a milk crate at the front of the queue since June. The crate now holds two hundred books and a ledger. The ferry operator has declined to formalise it, and has also declined to remove it.",
+          "frame": "A milk crate of swollen paperbacks at the head of a car queue.",
+          "outlet": "West Highland Free Press", "url": "https://example.invalid/whfp/ferry-library", "language": null
+        }
+      ]
+    },
+    {
+      "title": "Subcultures",
+      "stories": [
+        {
+          "headline": "Anvil firers meet for the ninetieth year",
+          "town": "Laurel", "region": "Mississippi", "country": "United States",
+          "date": "2026-08-22",
+          "summary": "Eleven teams launched anvils with black powder at the county fairground, a practice the association has run since 1936. The current record stands at forty-one metres. Insurance now requires a hundred-metre exclusion zone, which is larger than the field the event has always used.",
+          "frame": "An anvil at the top of its arc, above a treeline, seen from below.",
+          "outlet": "Laurel Leader-Call", "url": "https://example.invalid/leader-call/anvil", "language": null
+        },
+        {
+          "headline": "Society for lost bus routes gains members",
+          "town": "Wuppertal", "region": "North Rhine-Westphalia", "country": "Germany",
+          "date": "2026-08-25",
+          "summary": "A group of forty-two enthusiasts rides discontinued bus routes using 1970s timetables, standing at stops that no longer exist. They meet monthly. The transport authority has begun sending an observer. Members describe the practice as neither protest nor nostalgia, and decline to describe it further.",
+          "frame": "Nine people waiting at a pole with no sign on it, in the rain.",
+          "outlet": "Westdeutsche Zeitung", "url": "https://example.invalid/wz/buslinien", "language": "German"
+        },
+        {
+          "headline": "Competitive hedge-layers accuse each other of speed",
+          "town": "Kilkenny", "region": "County Kilkenny", "country": "Ireland",
+          "date": "2026-08-20",
+          "summary": "The national hedge-laying final ended in a formal complaint that two entrants worked too fast to have laid the stems correctly. Judges upheld the complaint and downgraded both scores. The winner finished last on time and first on every other measure, as he has for six years.",
+          "frame": "A man's hands bending a living stake into a hedge, in low sun.",
+          "outlet": "Kilkenny People", "url": "https://example.invalid/kilkenny-people/hedges", "language": null
+        },
+        {
+          "headline": "Osaka club collects only the wrong signs",
+          "town": "Osaka", "region": "Kansai", "country": "Japan",
+          "date": "2026-08-27",
+          "summary": "A twelve-member group photographs and catalogues misprinted municipal signage — wrong arrows, impossible distances, streets that do not exist. They have documented eight hundred. The city has corrected forty of them, which members treat as losses and record in a separate ledger.",
+          "frame": "A road sign pointing to a town at a distance of zero kilometres.",
+          "outlet": "Osaka Nichinichi Shimbun", "url": "https://example.invalid/osakanichinichi/signs", "language": "Japanese"
+        }
+      ]
+    },
+    {
+      "title": "Unexplained",
+      "stories": [
+        {
+          "headline": "Church bell rings without a rope",
+          "town": "Zlaté Moravce", "region": "Nitra", "country": "Slovakia",
+          "date": "2026-08-23",
+          "summary": "The bell in a deconsecrated church has sounded on eleven nights since June. The rope was removed in 2011. A campanologist sent by the diocese found no mechanism and no draught, and recommended the tower be sealed. The parish declined and installed a chair instead.",
+          "frame": "An empty bell tower with a wooden chair facing up into the dark.",
+          "outlet": "Nitrianske Noviny", "url": "https://example.invalid/nitrianske/zvon", "language": "Slovak"
+        },
+        {
+          "headline": "Paddock grows flax nobody planted",
+          "town": "Wagga Wagga", "region": "New South Wales", "country": "Australia",
+          "date": "2026-08-18",
+          "summary": "A four-hectare paddock has grown flax for three consecutive seasons without being planted. The owner has not sown flax since 1998. Soil testing found no viable seed bank. The agriculture department has taken samples twice and issued no finding either time.",
+          "frame": "Blue flax flowers in an even rectangle inside a bare brown paddock.",
+          "outlet": "The Daily Advertiser", "url": "https://example.invalid/dailyadvertiser/flax", "language": null
+        },
+        {
+          "headline": "Lighthouse keeper's log continues after his death",
+          "town": "Nordkapp", "region": "Finnmark", "country": "Norway",
+          "date": "2026-08-29",
+          "summary": "Entries in the same hand appear in a station logbook for four months after the keeper died in 1974. A conservator confirmed the ink and the paper are period-correct. The maritime museum has put the book on display without an explanation card, which visitors keep annotating.",
+          "frame": "A logbook open under glass, the last four pages filled in pencil.",
+          "outlet": "Finnmark Dagblad", "url": "https://example.invalid/finnmarkdagblad/fyr", "language": "Norwegian"
+        },
+        {
+          "headline": "Whole street reports the same dream",
+          "town": "Ambato", "region": "Tungurahua", "country": "Ecuador",
+          "date": "2026-08-30",
+          "summary": "Nineteen households on one street described the same dream over four nights in August: a flooded stairwell and a door that opens inward. A university psychology department has begun interviews. Residents have started leaving their doors open, which nobody has asked them to explain.",
+          "frame": "Nineteen front doors on one street, all standing open, at midday.",
+          "outlet": "Diario La Hora", "url": "https://example.invalid/lahora/sueno", "language": "Spanish"
+        }
+      ]
+    },
+    {
+      "title": "Characters",
+      "stories": [
+        {
+          "headline": "Baker has made one loaf since 1991",
+          "town": "Trapani", "region": "Sicily", "country": "Italy",
+          "date": "2026-08-21",
+          "summary": "Salvatore Ingrassia sells a single kind of bread, in a single size, and has refused every request to vary it for thirty-five years. He bakes forty loaves daily and closes when they are gone, usually before nine. The shop has no sign and no telephone.",
+          "frame": "Forty identical loaves on a bare marble counter at seven in the morning.",
+          "outlet": "Giornale di Sicilia", "url": "https://example.invalid/gds/pane", "language": "Italian"
+        },
+        {
+          "headline": "Woman has photographed the same tree daily",
+          "town": "Thunder Bay", "region": "Ontario", "country": "Canada",
+          "date": "2026-08-26",
+          "summary": "Margaret Oyelaran has photographed one birch on the Kaministiquia riverbank every day since 2004, from the same mark she cut in a rock. The tree fell in a storm in July. She has continued photographing the space where it stood, and says she will not stop.",
+          "frame": "A tripod mark cut into rock, aimed at an empty stretch of riverbank.",
+          "outlet": "Thunder Bay Chronicle-Journal", "url": "https://example.invalid/tbnewswatch/birch", "language": null
+        },
+        {
+          "headline": "Man keeps the last working municipal siren",
+          "town": "Chełmno", "region": "Kuyavia-Pomerania", "country": "Poland",
+          "date": "2026-08-24",
+          "summary": "Tomasz Barański maintains a 1962 air-raid siren on his roof at his own expense and tests it at noon on the first of each month. The town has asked him to stop four times. He holds a maintenance contract signed in 1971 that nobody has been able to void.",
+          "frame": "A rusted siren on a tiled roof, mid-rotation, against a flat grey sky.",
+          "outlet": "Gazeta Pomorska", "url": "https://example.invalid/pomorska/syrena", "language": "Polish"
+        },
+        {
+          "headline": "Retired judge rules on neighbourhood disputes free",
+          "town": "Kumasi", "region": "Ashanti", "country": "Ghana",
+          "date": "2026-08-27",
+          "summary": "Kwabena Osei-Bonsu hears complaints on a bench outside his gate three afternoons a week — fences, goats, debts, noise. He has no legal authority and keeps written judgments in ledgers going back to 2009. Both parties usually comply. He has never been asked why.",
+          "frame": "A wooden bench, two plastic chairs, a ledger, and a queue along a wall.",
+          "outlet": "Ashanti Times", "url": "https://example.invalid/ashantitimes/bench", "language": null
+        }
+      ]
+    }
+  ],
+  "longer": {
+    "headline": "The tunnel under the house on Vine Street",
+    "town": "Zanesville", "region": "Ohio", "country": "United States",
+    "date": "2026-08-25",
+    "summary": "Harold Vance has been digging beneath his own house since 1994. The tunnel now runs one hundred and forty feet, shored with railway sleepers and lit by a string of bulbs he rewires every spring. He has never given a reason beyond wanting to know what the ground was doing. The city surveyed it in August after a neighbour reported subsidence and found the work structurally sound, which surprised everyone including Vance. He has been told he may continue, provided he files a plan. He has declined to file a plan, on the grounds that he does not know where he is going next and would rather not commit to a direction in writing. The neighbour who reported the subsidence has since asked to be shown the tunnel, and was refused, politely, on the doorstep.",
+    "frame": "A bulb string vanishing down a timber-shored tunnel under a suburban floor.",
+    "outlet": "Zanesville Times Recorder", "url": "https://example.invalid/timesrecorder/tunnel", "language": null
+  }
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE MARGINS — Issue {{ issue_no }}</title>
+<style>{{ font_css }}</style>
+<style>{{ base_css }}</style>
+<style>:root { --runfoot: "{{ runfoot }}"; }</style>
+</head>
+<body>
+
+<section class="cover">
+  <h1 class="masthead">The<span class="of">Margins</span></h1>
+  <hr class="cover-rule">
+  <p class="cover-meta">
+    <span class="issue-no">Issue {{ issue_no }}</span>
+    <span class="sep">/</span>{{ range_label }}
+    <span class="sep">/</span>{{ story_count }} stories
+    <span class="sep">/</span>{{ country_count }} countries
+  </p>
+  <p class="cover-note">{{ cover_note }}</p>
+
+  <p class="toc-head">Contents</p>
+  {% for group in toc %}
+  <div class="toc-group">
+    <p class="toc-sec">{{ group.section }}</p>
+    {% for row in group.rows %}
+    <p class="toc-row"><span class="n">{{ row.num }}</span>{{ row.headline }} <span class="where">— {{ row.where }}</span></p>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
+
+{% for section in sections %}
+<section class="section">
+  <div class="section-open">
+    <hr>
+    <p class="section-index">Section {{ section.index }} of {{ sections|length }}</p>
+    <h2 class="section-title">{{ section.title }}</h2>
+  </div>
+
+  {% for s in section.stories %}
+  <article class="story">
+    <p class="num">{{ s.num }}</p>
+    <h3 class="hl">{{ s.headline }}</h3>
+    <p class="dateline">{{ s.dateline }}</p>
+    <p class="sum">{{ s.summary }}</p>
+    {% if s.frame %}<p class="frame">{{ s.frame }}</p>{% endif %}
+    <p class="src"><a href="{{ s.url }}"><span class="outlet">{{ s.outlet }}</span></a><span class="dot">·</span>{{ s.domain }}{% if s.language %}<span class="dot">·</span><span class="lang">in {{ s.language }}</span>{% endif %}</p>
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
+
+{% if longer %}
+<section class="longer">
+  <div class="section-open">
+    <hr>
+    <p class="section-index">The best story of the fortnight</p>
+    <h2 class="section-title">One Longer Piece</h2>
+  </div>
+  <div class="lp-block">
+    <p class="num">{{ longer.num }}</p>
+    <h3 class="lp-hl">{{ longer.headline }}</h3>
+    <p class="dateline">{{ longer.dateline }}</p>
+    <p class="lp-body">{{ longer.summary }}</p>
+    {% if longer.frame %}<p class="frame">{{ longer.frame }}</p>{% endif %}
+    <p class="src"><a href="{{ longer.url }}"><span class="outlet">{{ longer.outlet }}</span></a><span class="dot">·</span>{{ longer.domain }}{% if longer.language %}<span class="dot">·</span><span class="lang">in {{ longer.language }}</span>{% endif %}</p>
+  </div>
+</section>
+{% endif %}
+
+{% if colophon %}
+<section class="colophon">
+  <div class="section-open">
+    <hr>
+    <p class="section-index">Colophon</p>
+    <h2 class="section-title">Sources</h2>
+  </div>
+  <p class="col-note">{{ colophon.note }}</p>
+  <div class="col-list">
+    {% for row in colophon.outlets %}<p><span class="cc">{{ row.cc }}</span>{{ row.outlet }}</p>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+</body>
+</html>
